@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="4" failures="0" name="com.qa.test.TestNGDemo" time="0.021" errors="0" skipped="0">
+<testsuite tests="12" failures="0" name="TestSuite" time="0.05" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_102\jre\bin"/>
@@ -27,24 +27,26 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 7"/>
-    <property name="classworlds.conf" value="C:\Users\Sony\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf9012414019005595471.tmp"/>
+    <property name="classworlds.conf" value="F:\developer\apache-maven-3.5.3\bin\..\bin\m2.conf"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_102\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_102\bin;C:\Program Files (x86)\scala\bin;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Python3.6.5\Scripts;C:\Python3.6.5;C:\bin;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\OpenVPN\bin;E:\robot\robot-scripts;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_102\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_102\bin;C:\Program Files (x86)\scala\bin;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Python3.6.5\Scripts;C:\Python3.6.5;C:\bin;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\OpenVPN\bin;E:\robot\robot-scripts;F:\developer\apache-maven-3.5.3\bin;."/>
+    <property name="maven.conf" value="F:\developer\apache-maven-3.5.3\bin\../conf"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="os.version" value="6.1"/>
+    <property name="library.jansi.path" value="F:\developer\apache-maven-3.5.3\bin\..\lib\jansi-native"/>
     <property name="user.home" value="C:\Users\Sony"/>
     <property name="user.timezone" value="America/Chicago"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="java.specification.version" value="1.8"/>
     <property name="file.encoding" value="Cp1252"/>
     <property name="user.name" value="Sony"/>
-    <property name="java.class.path" value="G:\eclipse\plugins\org.eclipse.m2e.maven.runtime_1.8.2.20171007-0216\jars\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.class.path" value="F:\developer\apache-maven-3.5.3\bin\..\boot\plexus-classworlds-2.5.2.jar"/>
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_102\jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -52,17 +54,27 @@
     <property name="java.version" value="1.8.0_102"/>
     <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_102\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_102\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_102\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_102\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_102\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_102\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_102\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_102\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_102\jre\classes"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
     <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="maven.home" value="C:\Users\Sony\eclipse-workspace\MavenwithTestNGDemo\EMBEDDED"/>
+    <property name="maven.home" value="F:\developer\apache-maven-3.5.3\bin\.."/>
     <property name="file.separator" value="\"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="com.qa.test.TestNGDemo" name="div" time="0.021"/>
-  <testcase classname="com.qa.test.TestNGDemo" name="mul" time="0"/>
-  <testcase classname="com.qa.test.TestNGDemo" name="sub" time="0"/>
+  <testcase classname="com.qa.test.TestNGDemo" name="div" time="0.025"/>
+  <testcase classname="com.qa.test.TestNGDemo" name="mul" time="0.004"/>
+  <testcase classname="com.qa.test.TestNGDemo" name="sub" time="0.009"/>
   <testcase classname="com.qa.test.TestNGDemo" name="sum" time="0"/>
+  <testcase classname="com.qa.test.TestNGDemo1" name="div" time="0.005"/>
+  <testcase classname="com.qa.test.TestNGDemo1" name="mul" time="0"/>
+  <testcase classname="com.qa.test.TestNGDemo1" name="sub" time="0.002"/>
+  <testcase classname="com.qa.test.TestNGDemo1" name="sum" time="0"/>
+  <testcase classname="com.qa.test.TestNGDemo2" name="div" time="0.001"/>
+  <testcase classname="com.qa.test.TestNGDemo2" name="mul" time="0.001"/>
+  <testcase classname="com.qa.test.TestNGDemo2" name="sub" time="0.002"/>
+  <testcase classname="com.qa.test.TestNGDemo2" name="sum" time="0.001"/>
 </testsuite>

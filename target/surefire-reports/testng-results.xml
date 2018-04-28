@@ -1,29 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" ignored="0" total="12" passed="12">
   <reporter-output>
   </reporter-output>
-  <suite name="com.qa.test.TestNGDemo" duration-ms="61" started-at="2018-04-28T02:37:07Z" finished-at="2018-04-28T02:37:07Z">
+  <suite name="Command line suite" duration-ms="96" started-at="2018-04-28T03:21:11Z" finished-at="2018-04-28T03:21:11Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="61" started-at="2018-04-28T02:37:07Z" finished-at="2018-04-28T02:37:07Z">
-      <class name="com.qa.test.TestNGDemo$DemoTestNG">
-        <test-method status="PASS" signature="div()[pri:0, instance:com.qa.test.TestNGDemo$DemoTestNG@2d209079]" name="div" duration-ms="14" started-at="2018-04-28T02:37:07Z" finished-at="2018-04-28T02:37:07Z">
+    <test name="Command line test" duration-ms="96" started-at="2018-04-28T03:21:11Z" finished-at="2018-04-28T03:21:11Z">
+      <class name="com.qa.test.TestNGDemo2">
+        <test-method status="PASS" signature="div()[pri:0, instance:com.qa.test.TestNGDemo2@1cd072a9]" name="div" duration-ms="0" started-at="2018-04-28T03:21:11Z" finished-at="2018-04-28T03:21:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- div -->
-        <test-method status="PASS" signature="mul()[pri:0, instance:com.qa.test.TestNGDemo$DemoTestNG@2d209079]" name="mul" duration-ms="1" started-at="2018-04-28T02:37:07Z" finished-at="2018-04-28T02:37:07Z">
+        <test-method status="PASS" signature="mul()[pri:0, instance:com.qa.test.TestNGDemo2@1cd072a9]" name="mul" duration-ms="0" started-at="2018-04-28T03:21:11Z" finished-at="2018-04-28T03:21:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mul -->
-        <test-method status="PASS" signature="sub()[pri:0, instance:com.qa.test.TestNGDemo$DemoTestNG@2d209079]" name="sub" duration-ms="0" started-at="2018-04-28T02:37:07Z" finished-at="2018-04-28T02:37:07Z">
+        <test-method status="PASS" signature="sub()[pri:0, instance:com.qa.test.TestNGDemo2@1cd072a9]" name="sub" duration-ms="0" started-at="2018-04-28T03:21:11Z" finished-at="2018-04-28T03:21:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sub -->
-        <test-method status="PASS" signature="sum()[pri:0, instance:com.qa.test.TestNGDemo$DemoTestNG@2d209079]" name="sum" duration-ms="0" started-at="2018-04-28T02:37:07Z" finished-at="2018-04-28T02:37:07Z">
+        <test-method status="PASS" signature="sum()[pri:0, instance:com.qa.test.TestNGDemo2@1cd072a9]" name="sum" duration-ms="0" started-at="2018-04-28T03:21:11Z" finished-at="2018-04-28T03:21:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sum -->
-      </class> <!-- com.qa.test.TestNGDemo$DemoTestNG -->
+      </class> <!-- com.qa.test.TestNGDemo2 -->
+      <class name="com.qa.test.TestNGDemo">
+        <test-method status="PASS" signature="div()[pri:0, instance:com.qa.test.TestNGDemo@2752f6e2]" name="div" duration-ms="21" started-at="2018-04-28T03:21:11Z" finished-at="2018-04-28T03:21:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- div -->
+        <test-method status="PASS" signature="mul()[pri:0, instance:com.qa.test.TestNGDemo@2752f6e2]" name="mul" duration-ms="0" started-at="2018-04-28T03:21:11Z" finished-at="2018-04-28T03:21:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mul -->
+        <test-method status="PASS" signature="sub()[pri:0, instance:com.qa.test.TestNGDemo@2752f6e2]" name="sub" duration-ms="0" started-at="2018-04-28T03:21:11Z" finished-at="2018-04-28T03:21:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sub -->
+        <test-method status="PASS" signature="sum()[pri:0, instance:com.qa.test.TestNGDemo@2752f6e2]" name="sum" duration-ms="0" started-at="2018-04-28T03:21:11Z" finished-at="2018-04-28T03:21:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sum -->
+      </class> <!-- com.qa.test.TestNGDemo -->
+      <class name="com.qa.test.TestNGDemo1">
+        <test-method status="PASS" signature="div()[pri:0, instance:com.qa.test.TestNGDemo1@e580929]" name="div" duration-ms="0" started-at="2018-04-28T03:21:11Z" finished-at="2018-04-28T03:21:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- div -->
+        <test-method status="PASS" signature="mul()[pri:0, instance:com.qa.test.TestNGDemo1@e580929]" name="mul" duration-ms="0" started-at="2018-04-28T03:21:11Z" finished-at="2018-04-28T03:21:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mul -->
+        <test-method status="PASS" signature="sub()[pri:0, instance:com.qa.test.TestNGDemo1@e580929]" name="sub" duration-ms="0" started-at="2018-04-28T03:21:11Z" finished-at="2018-04-28T03:21:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sub -->
+        <test-method status="PASS" signature="sum()[pri:0, instance:com.qa.test.TestNGDemo1@e580929]" name="sum" duration-ms="0" started-at="2018-04-28T03:21:11Z" finished-at="2018-04-28T03:21:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sum -->
+      </class> <!-- com.qa.test.TestNGDemo1 -->
     </test> <!-- Command line test -->
-  </suite> <!-- com.qa.test.TestNGDemo -->
+  </suite> <!-- Command line suite -->
 </testng-results>
